@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node ./bin/www\" \"react-scripts start\" ",
-    "dev": "concurrently \"nodemon ./bin/www\" \"react-scripts start\" ",
+    "start": "concurrently \"react-scripts start\" \"node ./bin/www\" ",
+    "dev": "concurrently \"react-scripts start\" \"nodemon ./bin/www\" ",
     "build": "react-scripts build"
   },
   "keywords": [],
